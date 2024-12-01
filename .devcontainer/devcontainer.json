@@ -14,9 +14,6 @@
 			"installGradle": "false"
 		},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {
-    },
-    "ghcr.io/prulloac/devcontainer-features/ollama:1": {
-      "pull": "tinyllama"
     }
   },
 
@@ -29,10 +26,7 @@
       ]
     }
   },
-
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [6333, 8080, 11434],
-
+	
   // Set minimal host requirements for the container.
   "hostRequirements": {
     "memory": "8gb"
